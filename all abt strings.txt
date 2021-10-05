@@ -1,0 +1,66 @@
+##string_slicing
+x = "I am a good boy"
+print(x[4])
+print(x[7])
+print(x[-3:])
+print(x[:4])
+print(x[4:])
+print(x[-3:])
+print(x[1:9])
+print(x[-3:45])
+
+##string_f(x)
+
+print(x.upper())
+print(x.lower())
+y ="       You are very good   "
+print(y.strip()) #removes white spaces
+print(y.replace("good","bad"))
+print(x.split('good'))
+z = "i am a boy"
+print(z.capitalize())
+print(z.find("am"))
+print(z.index("am")) #same as find() as YOU CAN SEE, so find() = index()
+print(z.isupper())
+print(z.islower())
+
+
+print(len(x)) #finds the length of variable
+
+#checking of specific keyword
+
+print("am" in x)
+print("good" not in y)
+
+#concatenation of two strings
+
+print(x + y)
+print(x + " ," + y)
+
+#concatenation of floats/ints & str
+
+#int
+a = 20
+b = "Hi, my name is Neel and I am {}"
+print(b.format(a))
+
+#float
+c =90.2
+d = "I am Sagarnil, and i got {}% in my boards"
+print(d.format(c))
+
+#escape_sequence character
+g = "Some \"vikings\" are from the north west" #double quote
+print(g)
+h = "Some \\vikings\\ are from the north west" #backslash
+print(h)
+i = "Some \n vikings are from the north west" #new line
+print(i)
+j = "Some \t vikings are from the north west" #tab
+print(j)
+k = "Some \r vikings are from the north west" #carriage return
+print(k)
+l = "Some \b vikings are from the north west" #backspace
+print(l)
+m = "Some \f vikings are from the north west" #form_feed
+print(m)
