@@ -1,0 +1,17 @@
+#booleans
+
+if 3>8:
+    print("yes")
+
+if 8>=8:
+    print("Yo")
+if 117 > 18:
+    print("Yep")
+    
+x = 100
+print(bool(x))
+     #OR,
+print(x.__bool__()) #bool() func. gives true if the variables contains any value
+
+y = 0
+print(bool(y))
