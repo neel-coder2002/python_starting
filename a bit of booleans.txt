@@ -11,7 +11,7 @@ if 117 > 18:
 x = 100
 print(bool(x))
      #OR,
-print(x.__bool__()) #bool() func. gives true if the variables contains any value
+print(x.__bool__()) # bool() func. gives true if the variables contains any value
 
 y = 0
 print(bool(y))
