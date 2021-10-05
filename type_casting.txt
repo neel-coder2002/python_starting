@@ -1,3 +1,7 @@
+'''
+type_casting of int into float && float into int && int/float into str
+
+'''
 flt = 789.3
 print(type(flt))
 print(int(flt))
@@ -8,3 +12,4 @@ print(type(i))
 print(float(i))
 print(str(i))
 print(int(i))
+#we cannot covert str into float/int cz str is a upperhand datatype with base 10.
