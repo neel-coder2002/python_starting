@@ -1,0 +1,10 @@
+flt = 789.3
+print(type(flt))
+print(int(flt))
+print(str(flt))
+print(float(flt))
+i = 67
+print(type(i))
+print(float(i))
+print(str(i))
+print(int(i))
